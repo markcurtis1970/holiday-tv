@@ -1,6 +1,6 @@
 # Holiday TV
 
-A simple set of scripts for using the raspberry pi to schedule unattended movies to play on a TV. Useful if you're away on holidays etc to deter any burgalars.
+A simple set of scripts for using the raspberry pi to schedule unattended movies to play on a TV. Useful if you're away on holidays etc to deter any burglars! Note the scripts are very basic and could probably be improved, feel free to plagiarise as needed!
 
 The hardware used was a raspberry pi and a set of these: https://energenie4u.co.uk/index.phpcatalogue/product/ENER002-2PI 
 
@@ -12,7 +12,7 @@ The power to the TV is switched on and then the TV switched on via the HDMI conn
 
 You'll need to ensure the following packages are installed
 
-- cec-utils
+- `cec-utils`
 
 ## Scripts / Files
 
