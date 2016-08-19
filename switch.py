@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #import the required modules
 import RPi.GPIO as GPIO
 import time

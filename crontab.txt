@@ -1,4 +1,4 @@
- Power socket 1
+# Power socket 1
 */15 19 * * * python /home/pi/holiday-tv/switch.py 1 &> /dev/null
 */15 23 * * * python /home/pi/holiday-tv/switch.py 2 &> /dev/null
 
