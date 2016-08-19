@@ -1,27 +1,27 @@
  Power socket 1
-*/15 19 * * * python /home/pi/powercontrol/switch.py 1 &> /dev/null
-*/15 23 * * * python /home/pi/powercontrol/switch.py 2 &> /dev/null
+*/15 19 * * * python /home/pi/holiday-tv/switch.py 1 &> /dev/null
+*/15 23 * * * python /home/pi/holiday-tv/switch.py 2 &> /dev/null
 
 # Power socket 2
-*/15 20 * * * python /home/pi/powercontrol/switch.py 3 &> /dev/null
-*/15 22 * * * python /home/pi/powercontrol/switch.py 4 &> /dev/null
+*/15 20 * * * python /home/pi/holiday-tv/switch.py 3 &> /dev/null
+*/15 22 * * * python /home/pi/holiday-tv/switch.py 4 &> /dev/null
 
 # TV play movie control
 
 # Tuesday
-11 20 * * 2 /home/pi/powercontrol/tv.sh 3611 &>dev/null
+11 20 * * 2 /home/pi/holiday-tv/tv.sh 3611 &>dev/null
 # Wednesday
-21 20 * * 3 /home/pi/powercontrol/tv.sh 3721 &>dev/null
+21 20 * * 3 /home/pi/holiday-tv/tv.sh 3721 &>dev/null
 # Thursday
-51 20 * * 4 /home/pi/powercontrol/tv.sh 3631 &>dev/null
+51 20 * * 4 /home/pi/holiday-tv/tv.sh 3631 &>dev/null
 # Friday
-41 20 * * 5 /home/pi/powercontrol/tv.sh 3731 &>dev/null
+41 20 * * 5 /home/pi/holiday-tv/tv.sh 3731 &>dev/null
 # Saturday
-51 20 * * 6 /home/pi/powercontrol/tv.sh 3641 &>dev/null
+51 20 * * 6 /home/pi/holiday-tv/tv.sh 3641 &>dev/null
 # Sunday
-15 20 * * 7 /home/pi/powercontrol/tv.sh 3741 &>dev/null
+15 20 * * 7 /home/pi/holiday-tv/tv.sh 3741 &>dev/null
 # Monday
-20 20 * * 1 /home/pi/powercontrol/tv.sh 3811 &>dev/null
+20 20 * * 1 /home/pi/holiday-tv/tv.sh 3811 &>dev/null
 # Tuesday
-25 20 * * 2 /home/pi/powercontrol/tv.sh 3511 &>dev/null
+25 20 * * 2 /home/pi/holiday-tv/tv.sh 3511 &>dev/null
 

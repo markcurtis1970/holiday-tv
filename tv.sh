@@ -12,7 +12,7 @@ delay=$1
 # Set current active source
 echo "as" |  cec-client -s -d 1
 # play some video
-omxplayer /home/pi/marge/X-Men\.First\.Class\.2011\.avi &
+omxplayer /home/pi/Videos/thor2011.mkv &
 # Allow to play for defined period of time
 sleep $delay
 # Kill player
